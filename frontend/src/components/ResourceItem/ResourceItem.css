@@ -1,0 +1,38 @@
+.resourceItem {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.resourceItem .p-avatar {
+  margin-right: 1rem;
+}
+
+.resourceItem-selectable {
+  cursor: pointer;
+
+}
+
+.resourceItem-selectable:hover {
+  background-color: #eee;
+}
+
+.resourceItem_texts {
+  flex: 1;
+}
+
+.resourceItem_title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.resourceItem_description {
+  color: #666;
+}
